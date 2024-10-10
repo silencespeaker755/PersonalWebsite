@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import Home from "./Home";
+import HomeBlock from "./HomeBlock";
+import Contact from "./components/Home/Contact";
+import Experience from "./components/Home/Experience";
 
-function App() {
+import { WebPageTitle } from "./Text/ConstantText";
+
+export default function App() {
+  useEffect(() => {
+    document.title = WebPageTitle;
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        {/* 父路由 */}
+        <Route path="/" element={<Home />}>
+          {/* 当访问 /parent 时，重定向到 /parent/child */}
+          <Route index element={<Navigate to="/home" />} />
+          {/* 子路由 */}
+          <Route path="home" element={<HomeBlock />} />
+          <Route path="experience" element={<Experience />} />
+          <Route path="contact" element={<Contact />} />
+        </Route>
+
+        {/* 其他路由 */}
+      </Routes>
+    </Router>
   );
 }
-
-export default App;
