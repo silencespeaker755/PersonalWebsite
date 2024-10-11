@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/PersonalWebsite/static/css/main.d102ab30.css",
+    "main.js": "/PersonalWebsite/static/js/main.aee55225.js",
+    "static/js/453.253ccfac.chunk.js": "/PersonalWebsite/static/js/453.253ccfac.chunk.js",
+    "static/media/icomoon.svg?6tt51o": "/PersonalWebsite/static/media/icomoon.9cc47145c3e61b03d8b8.svg",
+    "static/media/ionicons.svg?v=4.0.0-19": "/PersonalWebsite/static/media/ionicons.b26f853631d2fc5d412b.svg",
+    "static/media/icomoon.eot?6tt51o": "/PersonalWebsite/static/media/icomoon.f76c54c12541e67c3ab1.eot",
+    "static/media/icomoon.woff?6tt51o": "/PersonalWebsite/static/media/icomoon.1b3e525e9b8ab061f068.woff",
+    "static/media/icomoon.ttf?6tt51o": "/PersonalWebsite/static/media/icomoon.31964debf8ad35e86c51.ttf",
+    "static/media/ionicons.eot?v=4.0.0-19": "/PersonalWebsite/static/media/ionicons.82062ff4bc04bebd3953.eot",
+    "static/media/ionicons.ttf?v=4.0.0-19": "/PersonalWebsite/static/media/ionicons.d4df1d7d4c44ce76dd56.ttf",
+    "static/media/ionicons.woff?v=4.0.0-19": "/PersonalWebsite/static/media/ionicons.ba380afcae404f46d5ac.woff",
+    "static/media/open-iconic.svg": "/PersonalWebsite/static/media/open-iconic.f88a8f004d6c024e07ae.svg",
+    "static/media/ionicons.woff2?v=4.0.0-19": "/PersonalWebsite/static/media/ionicons.07feb1edb7a3f9f4dc78.woff2",
+    "static/media/Flaticon.svg": "/PersonalWebsite/static/media/Flaticon.3959c0daae1762dec5fc.svg",
+    "static/media/open-iconic.eot": "/PersonalWebsite/static/media/open-iconic.2442644a7a4429aaf45b.eot",
+    "static/media/open-iconic.ttf": "/PersonalWebsite/static/media/open-iconic.7f224b54c9aa6dcea763.ttf",
+    "static/media/open-iconic.otf": "/PersonalWebsite/static/media/open-iconic.bff1e040a7ef4f0d0b47.otf",
+    "static/media/open-iconic.woff": "/PersonalWebsite/static/media/open-iconic.42125a176cf7bfb24819.woff",
+    "static/media/Flaticon.eot": "/PersonalWebsite/static/media/Flaticon.ee8e765aaaefd6508c8a.eot",
+    "static/media/Flaticon.ttf": "/PersonalWebsite/static/media/Flaticon.745f17e8c99590d1e178.ttf",
+    "static/media/Flaticon.woff": "/PersonalWebsite/static/media/Flaticon.9b87776c6fe46e40f0fa.woff",
+    "index.html": "/PersonalWebsite/index.html",
+    "main.d102ab30.css.map": "/PersonalWebsite/static/css/main.d102ab30.css.map",
+    "main.aee55225.js.map": "/PersonalWebsite/static/js/main.aee55225.js.map",
+    "453.253ccfac.chunk.js.map": "/PersonalWebsite/static/js/453.253ccfac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d102ab30.css",
+    "static/js/main.aee55225.js"
+  ]
+}
